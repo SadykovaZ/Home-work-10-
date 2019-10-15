@@ -1,0 +1,213 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: #fff;
+}
+a:hover {
+  opacity: 0.7;
+}
+.container {
+  max-width: 1000px;
+  margin: 0 auto;   
+}
+.header {
+  background: #f74c55;
+  background-image: url("../img/elipses.jpg");
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  height: 496px; 
+  position: relative;
+  color: #fff;
+  font-weight: 400;
+}
+.logo {   
+  float: left;
+  margin-top: 18px;
+  padding-left: 25px;
+}
+.logo img {
+  width: 104px;
+  height: 38px;
+}
+.menu {
+  float: right;
+}
+.menu_item {
+  float: left;  
+  font-size: 16px;  
+  margin-right: 22px;
+  margin-top: 32px;
+  text-transform: uppercase;
+}
+.menu_item:last-of-type {
+  margin-right: 0;
+}
+.header_info {
+  position: absolute;
+  bottom: 167px;
+  right: 408px;
+}
+.header_info h1 {
+  font-size: 40px;
+  margin-bottom: 14px;  
+}
+.header_info p {
+  font-size: 16px;
+  margin-bottom: 30px;
+}
+.button_join {
+  font-size: 24px;
+  border: 2px solid #fff;
+  border-radius: 10px;
+  padding: 4px 30px 12px 27px;
+}
+.promo {
+  margin-top: 85px;
+  margin-bottom: 105px;
+  font-weight: 400;
+}
+.promo_info {
+  padding-left: 104px;
+  padding-right: 34px;
+}
+.promo_info h2 {
+  font-size: 30px;
+  color: #000;
+  margin-bottom: 23px;
+}
+.promo_info p {
+  font-size: 14px;
+  line-height: 23px;
+  color: #404040;
+  overflow: hidden;
+}
+.promo_info img {
+  display: block;
+  margin-top: 63px;
+  margin-left: 3px;
+}
+.info {
+  background: #2d5f3b;
+  color: #fff; 
+  font-weight: 400; 
+}
+.info_item {
+  display: inline-block;
+  width: 323px;
+  text-align: left;
+  padding-left: 41px;
+  margin-right: 9px;
+}
+.info_item:last-of-type {
+  margin-right: 0;
+  padding-left: 35px;
+}
+.info_item:hover {
+  background: #f74c55;
+}
+.info_head {
+  font-size: 22px;
+  margin-top: 33px; 
+  text-transform: capitalize;   
+}
+.info_head::before {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 8px;
+  width: 36px;
+  height: 36px;
+}
+.info_text {
+  font-size: 14px;
+  line-height: 24px;
+  overflow: hidden;
+  padding-top: 11px;
+  padding-left: 2px;
+}
+.info_item:first-of-type .info_head::before {
+  content: url("../img/ic-desk.png"); 
+}
+
+.info_item:nth-of-type(2) .info_head::before {
+  content: url("../img/ic-devices.png"); 
+  margin-right: 10px;
+  padding-left: 4px;
+}
+
+.info_item:nth-of-type(2) .info_head {
+  margin-top: 33px;
+}
+
+.info_item:last-of-type .info_head::before {
+  content: url("../img/ic-cloud.png"); 
+  margin-right: 21px;
+}
+
+.plus {
+  float: right;
+  background: rgba(0,0,0, 0.5);  
+  background-image: url("../img/ic-plus.png");
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  width: 35px;
+  height: 32px;
+  margin: 15px 0px 31px 0;   
+}
+.info_item:nth-of-type(2) .plus {
+  margin-top: 14px;
+  margin-right: 9px;
+}
+.info_item:last-of-type .plus { 
+  margin-right: 12px;
+}
+.boat {
+  background: #000;  
+  color: #fff;    
+  text-align: center; 
+  position: relative; 
+}
+.boat_img {  
+  width: 100%;
+  max-width: 1260px;
+  height: auto;
+}
+.boat_inner {
+  position: absolute;
+  left: 0;
+  top: 0; 
+  width: 100%;   
+}  
+.boat_info {
+  margin-top: 180px;
+  margin-left: 48px;
+}
+.boat_info h2 {
+  font-size: 40px;
+  margin-bottom: 54px;   
+}
+.boat_info span {
+  display: block;
+  margin-top: 14px;
+  margin-left: 15px;
+}
+.boat_link {
+  font-size: 24px;
+  border: 2px solid #fff;
+  border-radius: 5px;
+  padding: 8px 29px; 
+  word-spacing: 8px; 
+}
+.footer {
+  text-align: center;   
+}
+.footer::before {
+  content: "";
+  display: block;
+  background: url(../img/color-line.jpg) top left repeat;
+  height: 9px;  
+}
+.footer p {
+  padding: 28px 30px 30px 53px;
+  color: #000;
+  font-size: 16px;
+  overflow: hidden;
+}

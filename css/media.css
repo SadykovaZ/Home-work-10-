@@ -1,0 +1,194 @@
+@media screen and (max-width: 900px) {
+  .container {
+    max-width: 100%;
+    width: 800px;
+    margin: 0 auto;
+  }
+  .header {
+    background-position: 38% 50%;
+  }
+  .menu_item {
+    margin-right: 10px;
+  }
+  .header_info {    
+    bottom: 167px;
+    right: 47px;
+  }
+  .info_item { 
+    width: 250px;
+  }
+  .info_item:last-of-type {     
+    padding-left: 44px;    
+  }
+  .boat_img {
+    width: 100%;
+  }
+  .boat_info {
+    margin-top: 77px;
+  }
+  .footer p {
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .container {
+    max-width: 100%;
+    width: 800px;
+    margin: 0 auto;
+  }
+  .header {
+    background-position: 35% 50%;
+  }
+  .logo {
+    padding-left: 0;  
+    margin-left: 15px;  
+  }
+  .logo img {
+    width: 97px;
+    height: 34px;   
+  }
+  .menu {
+    margin-right: 66px;
+  }
+  .menu_item {
+    margin-right: 17px;
+    font-size: 16px;
+  }
+  .header_info {    
+    bottom: 167px;
+    right: 47px;
+  }
+  .promo_info {
+    padding-left: 70px;
+    padding-right: 72px;
+    text-align: center;
+  }
+  .promo_info h2 {
+    font-size: 26px;
+  }
+  .promo_info p {
+    text-align: justify;
+  }
+  .info_part {
+    text-align: center;
+  }
+  .info_item { 
+    width: 275px;
+    padding-left: 31px;
+    padding-right: 0;
+  }
+  .info_item:nth-of-type(2) {
+    padding-left: 22px;
+  }
+  .info_item:last-of-type {     
+    float:none;
+    padding-left: 0;    
+  }
+  .info_head {
+    font-size: 21px;
+  }
+  .info_head::before {
+    margin-right: 0;
+  }
+  .info_text {
+    font-size: 15px;
+    text-align: justify;
+  }
+  .boat_img {
+    width: 100%;
+  }
+  .boat_info {
+    margin-top: 27px;
+  }
+  .boat_info h2 {
+    font-size: 30px;
+  }
+  .boat_link {
+    font-size: 20px;
+  }
+  .footer p {
+    font-size: 12px;
+    
+  }  
+}
+
+@media screen and (max-width: 468px) {
+  .container {
+    max-width: 100%;
+    width: 500px;
+    margin: 0 auto;
+  }
+  .header {
+    background: #f74c55;
+    text-align: center; 
+    font-weight: 700;   
+  }
+  .logo {
+    float:none;
+    padding-left: 0;
+    margin: 0px;    
+  }
+  .logo img {
+    margin-top: 15px; 
+    margin-bottom: 20px;
+  }
+  .menu {
+    float:none; 
+    margin: 0;   
+  }
+  .menu_item {
+    float:none;    
+    font-size: 16px;
+    margin-right: 0;
+    margin-top: 0;
+    padding: 15px;
+  }
+  .menu_item:hover {
+    background: #d84149;
+  }
+  .header_info {  
+    position: static;    
+    text-align: center;
+    margin-top: 60px;    
+  }
+  .button_join:hover {
+    background: #d84149;
+    opacity: 0.5;
+  }  
+  .promo_info h2 {
+    font-size: 26px;
+  }
+  .info_item { 
+    float:none;
+    padding: 0;
+    margin: 0;
+    width: 300px;
+  }  
+  .info_item:nth-of-type(2) {
+    padding-left: 0;
+  }
+  .info_head {
+    font-size: 25px;
+  }
+  .info_text {
+    font-size: 16px;
+  }
+  .boat_img {
+    width: 100%;
+  }
+  .boat_info {
+    margin-top: 9px;
+    text-align: center;
+    margin-left: 0;
+  }
+  .boat_info h2 {
+    font-size: 26px;
+    margin-bottom: 36px;
+  }
+  .boat_link:hover {
+    background: rgb(36, 32, 32);
+  }
+  .footer p {
+    font-size: 12px;
+  }  
+}
